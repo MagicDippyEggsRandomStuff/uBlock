@@ -3,6 +3,12 @@ name: uBO release
 on:
   create:
     branches: master
+  workflow_dispatch:
+    inputs:
+      release_name:
+        description: 'Release version'
+        required: true
+        default: 'v1.0.0'
 
 permissions:
   contents: read
