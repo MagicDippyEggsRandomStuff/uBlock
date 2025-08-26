@@ -50,8 +50,6 @@ jobs:
         with:
           tag_name: ${{ env.VERSION }}
           name: ${{ env.VERSION }}
-          draft: true
-          prerelease: true
           body_path: release.body.txt
           files: |
             dist/build/uBlock0_${{ env.VERSION }}.chromium.zip
