@@ -52,6 +52,6 @@ jobs:
           name: ${{ env.VERSION }}
           body_path: release.body.txt
           files: |
-            dist/build/MagicBlock0_${{ env.VERSION }}.chromium.zip
-            dist/build/MagicBlock0_${{ env.VERSION }}.firefox.xpi
-            dist/build/MagicBlock0_${{ env.VERSION }}.thunderbird.xpi
+            dist/build/uBlock0_${{ env.VERSION }}.chromium.zip
+            dist/build/uBlock0_${{ env.VERSION }}.firefox.xpi
+            dist/build/uBlock0_${{ env.VERSION }}.thunderbird.xpi
